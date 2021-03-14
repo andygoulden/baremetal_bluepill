@@ -32,7 +32,7 @@ Here is a brief description of the files here.
 
 Directory | Filename | Description
 :-------- | :------- | :----------
-.         | Makefile | The Makefile, which compiles the code and also flashes the unit. The goals are 'app' (the default), which compiles the application, and 'clean', which deletes the build artefacts.
+.         | Makefile | The Makefile, which compiles the code. The goals are 'app' (the default), which compiles the application, and 'clean', which deletes the build artefacts.
 cmsis     | *many*   | CMSIS files; Interface files for the Cortex-M3 ARM CPU core.
 inc       | stm32f1xx.h | A header for all STM32F1xx series chips. It doesn't do much, apart from include the more specific header file (e.g. stm32f103x6.h).
 inc       | stm32f103x6.h | A header for STM32F103x6 chips, such as the STM32F103C6. This provides a lot of interface details for user scripts, like registers and interrupts.
